@@ -29,8 +29,36 @@ except RandomError as e:
 else:
     print("No error generated")'''
 
-import calendar
+'''import calendar
 Year = int(input("Enter year: "))
 Month = int(input("Enter month: "))
 str=calendar.month(Year,Month)
-print(str)
+print(str)'''
+
+'''import calendar
+year = int(input("Enter year: "))
+if calendar.isleap(year):
+    print(f"{year} is a leap year.")
+else:
+    print(f"{year} is not a leap year.")'''
+
+'''Program to print the next 10 days dates continuously from today.'''
+
+'''from datetime import *
+d=date.today()
+print(d)
+d=date(1966,6,29)
+for x in range(10):
+    nextdate = d + timedelta(days=x)
+    print(nextdate)'''
+
+'''import time
+epoch = time.time()
+print(epoch)'''
+
+import sys
+if len(sys.argv) <2:
+    print("Usage: hello hi.py <name>")
+else:
+    name= sys.argv[1]
+    print(f"student, {name}!")
