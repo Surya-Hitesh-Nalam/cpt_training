@@ -1,0 +1,7 @@
+Patient_ID,Name,Age,Department,Admission_Date,Bill
+P001,Vijay,34.0,Carona,2025-01-15,7000.8
+P002,Ajay,30.0,Cancer,2025-02-10,76000.0
+P003,Kiran,,Neurology,2025-03-03,10000.0
+P004,Amith,60.0,Cardiaology,2025-01-22,200000.0
+P005,Suresh,25.0,Cancer,2025-04-06,80000.0
+P006,,50.0,ICU,2025-08-04,
